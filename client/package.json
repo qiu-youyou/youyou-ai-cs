@@ -1,9 +1,9 @@
 {
-  "name": "@trace-ai-cs/client",
+  "name": "@youyou-ai-cs/client",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Trace AI CS Frontend - 实时对话式 AI 前端",
+  "description": "Youyou AI CS Frontend - 实时对话式 AI 前端",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

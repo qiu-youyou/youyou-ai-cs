@@ -1,4 +1,4 @@
-# PROJECT.md — Trace AI Conversational System
+# PROJECT.md — Youyou AI Conversational System
 
 ## 项目定位
 

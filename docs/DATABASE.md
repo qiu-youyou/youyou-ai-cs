@@ -1,8 +1,8 @@
-# DATABASE.md — Trace AI CS
+# DATABASE.md — Youyou AI CS
 
 ## 当前状态: **无数据库**
 
-Trace AI CS 当前版本 (1.1.0) **不使用任何持久化数据库**。
+Youyou AI CS 当前版本 (1.1.0) **不使用任何持久化数据库**。
 
 ### 数据存储方式
 

@@ -1,4 +1,4 @@
-# AGENTS.md — Trace AI CS
+# AGENTS.md — Youyou AI CS
 
 Agent 打开本项目的**第一份必读文件**。下面是操作手册，不是参考手册。
 
@@ -56,7 +56,7 @@ git checkout -b feature/<功能简述>
 
 ```bash
 # 后端：确认模块可导入
-cd trace-ai-cs && source .venv/bin/activate && python -c "from server.app import app"
+cd youyou-ai-cs && source .venv/bin/activate && python -c "from server.app import app"
 
 # 前端：确认类型检查通过
 cd client && npx tsc --noEmit
@@ -74,7 +74,7 @@ cd client && npx tsc --noEmit
 
 ```bash
 # 后端导入验证
-cd trace-ai-cs && source .venv/bin/activate && python -c "from server.app import app"
+cd youyou-ai-cs && source .venv/bin/activate && python -c "from server.app import app"
 
 # 前端类型检查
 cd client && npx tsc --noEmit

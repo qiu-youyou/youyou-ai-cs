@@ -48,7 +48,7 @@ function Header() {
           </defs>
         </svg>
         <Divider type="vertical" />
-        <span className={styles['header-logo-text']}>Trace AI - 实时对话式 AI</span>
+        <span className={styles['header-logo-text']}>Youyou AI - 实时对话式 AI</span>
         <NetworkIndicator />
       </div>
       {!isMobile && (

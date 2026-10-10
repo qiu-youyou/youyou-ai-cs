@@ -18,5 +18,5 @@ router = APIRouter(tags=["系统"])
 )
 async def health_check():
     return JSONResponse(
-        content={"status": "ok", "service": "trace-ai-cs-server"}
+        content={"status": "ok", "service": "youyou-ai-cs-server"}
     )

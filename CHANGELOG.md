@@ -12,6 +12,7 @@
 - 场景配置新增 `LLMChannel`(Ark) 和 `RAGConfig`(知识库) 字段
 
 ### 变更
+- 项目品牌统一为 Youyou：同步前端展示、包名与 workspace 命令、后端服务标识、环境模板和项目文档。
 - `server/services/llm_channel.py` 重写: 移除硬编码 OpenAI 配置，改为 RAG 检索 + LLM 调用管线
 - `server/routers/llm_callback.py` 从场景配置读取 LLMChannel/RAGConfig/AccountConfig
 - `server/app.py` 注册 debug 路由，场景配置注入 callback/debug 路由

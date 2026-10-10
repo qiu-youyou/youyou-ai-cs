@@ -81,7 +81,7 @@ async def test_health():
     async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
         response = await client.get("/health")
         assert response.status_code == 200
-        assert response.json() == {"status": "ok", "service": "trace-ai-cs-server"}
+        assert response.json() == {"status": "ok", "service": "youyou-ai-cs-server"}
 ```
 
 ## 测试命令

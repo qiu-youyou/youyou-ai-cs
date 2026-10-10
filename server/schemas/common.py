@@ -26,4 +26,4 @@ class WrapperResponse(BaseModel):
 class HealthResponse(BaseModel):
     """健康检查响应"""
     status: str = Field("ok", description="服务状态")
-    service: str = Field("trace-ai-cs-server", description="服务名称")
+    service: str = Field("youyou-ai-cs-server", description="服务名称")

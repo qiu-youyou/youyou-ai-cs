@@ -1,4 +1,4 @@
-# Trace AI Conversational System
+# Youyou AI Conversational System
 
 基于火山引擎 RTC 的实时对话式 AI 系统，支持接入第三方大模型（OpenAI / DeepSeek 等）。
 
@@ -45,7 +45,7 @@ pnpm dev                          # 前端 :3000 + 后端 :3001
 ## 项目结构
 
 ```
-trace-ai-cs/
+youyou-ai-cs/
 ├── client/                   # 前端 React + Vite + TypeScript
 ├── server/                   # 后端 Python + FastAPI
 ├── docs/                     # 文档

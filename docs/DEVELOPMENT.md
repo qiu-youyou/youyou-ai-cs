@@ -10,7 +10,7 @@
 
 ```bash
 # 1. 进入项目
-cd trace-ai-cs
+cd youyou-ai-cs
 
 # 2. 安装 Node 依赖 (monorepo)
 pnpm install
@@ -44,7 +44,7 @@ pnpm dev
 ## 目录约定
 
 ```
-trace-ai-cs/
+youyou-ai-cs/
 ├── client/src/        # 前端源码
 │   ├── api/           # API 请求层 (不写 UI 逻辑)
 │   ├── lib/           # RTC 核心 + Hooks (不写 UI)
@@ -175,7 +175,7 @@ uvicorn server.app:app --host 0.0.0.0 --port 3001
 
 ```bash
 # 1. 后端模块导入检查
-cd trace-ai-cs && source .venv/bin/activate
+cd youyou-ai-cs && source .venv/bin/activate
 python -c "from server.app import app"
 # 预期输出: 无错误，静默退出
 

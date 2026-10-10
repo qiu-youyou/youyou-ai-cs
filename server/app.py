@@ -1,5 +1,5 @@
 """
-Trace AI Conversational Server 入口
+Youyou AI Conversational Server 入口
 """
 
 import logging
@@ -41,7 +41,7 @@ init_debug_scenes(SCENES)
 # ── FastAPI 应用 ──────────────────────────────────────────
 
 app = FastAPI(
-    title="Trace AI Conversational Server",
+    title="Youyou AI Conversational Server",
     description=(
         "基于火山引擎 RTC 的实时对话式 AI 后端服务\n\n"
         "LLM: 方舟 Ark (OpenAI 兼容) + RAG: 火山知识库检索增强"

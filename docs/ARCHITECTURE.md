@@ -1,4 +1,4 @@
-# ARCHITECTURE.md — Trace AI CS
+# ARCHITECTURE.md — Youyou AI CS
 
 ## 总体架构
 
@@ -138,6 +138,9 @@ app.include_router(proxy_router)               # /proxy
 app.include_router(llm_callback_router)        # /llm/callback
 app.include_router(llm_debug_router)           # /llm/debug/*
 ```
+
+应用的 Swagger 标题为 `Youyou AI Conversational Server`；`GET /health` 返回
+`{"status": "ok", "service": "youyou-ai-cs-server"}`。
 
 ### 路由 → 服务 → 数据层 关系
 
